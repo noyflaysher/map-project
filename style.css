@@ -261,8 +261,7 @@ a:visited {
 }
 
 .btnWorkout--edit {
-  top: 2rem;
-  right: 9rem;
+  display: none;
 }
 
 .sidebar-row {

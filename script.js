@@ -246,7 +246,7 @@ class App {
     let html = `
       <li class="workout workout--${workout.type}" data-id="${workout.id}">
       <h2 class="workout__title">${workout.description}</h2>
-        <button class="btnWorkout btnWorkout--edit" id="btn-edit"></button>
+        <button class="btnWorkout--edit" id="btn-edit"></button>
         <button class="btnWorkout btnWorkout--del" id="btn-del">delete</button>
         
         <div class="workout__details">
